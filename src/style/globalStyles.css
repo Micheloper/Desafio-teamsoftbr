@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-red: #d80000;
+  --clr-gray: #4e4e4e;
+  --clr-orange: #f09035;
+  --clr-yellow-light: #fdd70e;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body,
+input,
+button {
+  font-family: "Roboto", sans-serif;
+}

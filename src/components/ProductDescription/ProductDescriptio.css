@@ -1,0 +1,56 @@
+.mainShowcase {
+  flex: 1;
+}
+
+.mainShowcaseTitle {
+  font-size: 2.8rem;
+  color: #4e4e4e;
+  margin: 1rem 0;
+}
+
+.mainShowcase p {
+  color: #4e4e4e;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.containerShocaseAmount {
+  color: #dc6e05;
+  font-size: 3.2rem;
+  margin-right: 1.7rem;
+}
+
+.containerShocaseAmount.--sale {
+  color: #4e4e4e;
+  font-size: 3.2rem;
+  margin-right: 1.7rem;
+}
+
+@media (max-width: 1070px) {
+  .mainShowcase {
+    margin-bottom: 3.2rem;
+  }
+
+  .showCaseImg {
+    text-align: center;
+  }
+}
+
+@media (max-width: 720px) {
+  .mainShowcase p {
+    font-size: 1.6rem;
+  }
+
+  .containerShocaseAmount {
+    font-size: 1.4rem;
+  }
+
+  .mainShowcaseTitle {
+    font-size: 1.8rem;
+  }
+
+  .mainShowcaseImg {
+    width: 343px;
+  }
+}

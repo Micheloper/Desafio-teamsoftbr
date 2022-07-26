@@ -1,0 +1,10 @@
+.containerIngredients {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.addIngredients {
+  margin-top: 1.6rem;
+}
